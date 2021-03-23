@@ -1,0 +1,147 @@
+body{
+    box-sizing: border-box;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif; 
+    color: grey;
+    float: right;
+}
+
+
+a:link {
+    color: black;
+    
+}
+a:visited {
+    color: green;
+}
+}
+, *:before, *:after, {
+    box-sizing: inherit;
+}
+
+.fling-minislide {
+    width:400px; 
+    height:350px; 
+    margin-left: 1200px;
+    overflow:hidden; 
+    position:relative; }
+
+
+.fling-minislide img{ 
+    position:absolute;
+    animation:fling-minislide 20s infinite; 
+    opacity:0; 
+    width: 100%; 
+    height: auto;
+}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+@media only screen and (min-width: 300px) {
+.col-2 {
+    float: right;
+ }
+    p{ 
+        max-width: 400px;
+        font-size: 10px;
+        margin-left: 1250px;
+    
+    }
+h3 { 
+    padding-left: 1250px;
+}
+li{
+    margin-left: 1250px;
+    font-size: 10px;
+}
+.main-heading{
+    background: darkseagreen;
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    margin-top: -10px;
+    color: floralwhite;
+    width: 900px;
+    opacity: .8;
+    text-align: left;
+    margin-left: 1000px;
+}
+.navbartop{
+   float: right;
+    max-height: 100px;
+    padding-right: 10px;
+    margin-top: -50px;
+    
+    
+}
+
+.footer{
+    background: darkseagreen;
+    font-size: 24px;
+    color: floralwhite;
+    width: 1400px;
+    opacity: .8;
+    margin-top: 10px;
+   padding-bottom: 20px;
+    margin-left: 300px;
+}
+.navbarbottom{
+    margin-left: 450px;
+}
+.images {
+    margin-left: 1150px;
+}
+}
+@media only screen and (min-width: 1000px) {
+    p{
+        font-size: 15px;
+        max-width: 600px;
+        margin-left: 1100px;
+        line-height: 150% 
+    }
+    li{
+        font-size: 15px;
+        margin-left: 1100px;
+    }
+    h3 {
+        margin-left: -150px;
+    }
+    .main-heading {
+        width: 1000px;
+    }
+    .navbarbottom {
+        margin-left: 400px;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .navbarbottom {
+        margin-left: 300px;
+    }
+    .main-heading { 
+        width: 1100px;
+        
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .navbarbottom {
+        margin-left: 300px;
+    }
+    .main-heading {
+        width: 1200px;
+        margin-left: 2000px;
+    }
+    p {
+        max-width: 650px;
+        margin-left: 
+    }
+    .footer {
+        padding-right: 50px;
+    }
+}
